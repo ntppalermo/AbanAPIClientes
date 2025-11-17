@@ -8,6 +8,7 @@ namespace AbanChallenge.Controllers
     {
 
         //Otro cambio de prueba.
+        //se agrega comentario en github directamente. 
         public ErrorResult(int statusCode, string message) : base(new { StatusCode = statusCode, Message = message })
         {
             StatusCode = statusCode;
